@@ -3,7 +3,7 @@ import React from 'react';
 const NotFoundPage = () => {
     return (
         <h1>
-            Страница не найдена
+            Это сайт Оли
         </h1>
     );
 };
