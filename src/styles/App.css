@@ -1,0 +1,19 @@
+* {
+    font-size: 25px;
+    font-family: "Roboto", serif;
+
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: lightpink;
+}
+
+.navbar__links {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
