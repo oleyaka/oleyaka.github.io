@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -6,10 +8,10 @@ const Home = () => {
             <p className="mt-5">Добро пожаловать на сайт Оли!</p>
             <p>Здесь можно посмотреть:</p>
 
-            <a href="news" className="btn btn-secondary">Новости</a>
-            <a href="blog" className="btn btn-secondary">Блог</a>
-            <a href="weather" className="btn btn-secondary">Погоду</a>
-            <a href="photo" className="btn btn-secondary">Фото</a>
+            <Link to="news" className="btn btn-secondary">Новости</Link>
+            <Link to="blog" className="btn btn-secondary">Блог</Link>
+            <Link to="weather" className="btn btn-secondary">Погоду</Link>
+            <Link to="photo" className="btn btn-secondary">Фото</Link>
         </div>
     );
 };
