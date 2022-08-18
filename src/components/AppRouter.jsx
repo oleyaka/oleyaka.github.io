@@ -5,6 +5,7 @@ import Blog from "../pages/Blog";
 import Weather from "../pages/Weather";
 import Photo from "../pages/Photo";
 import NotFoundPage from "../pages/NotFoundPage";
+import Home from "../pages/Home";
 
 
 const AppRouter = () => {
@@ -15,6 +16,7 @@ const AppRouter = () => {
             <Route path="/weather" element={<Weather/>}/>
             <Route path="/photo" element={<Photo/>}/>
             <Route path="*" element={<NotFoundPage/>}/>
+            <Route path="/" element={<Home to="/" replace/>}/>
 
         </Routes>
     );

@@ -17,3 +17,29 @@
     color: black;
     margin: auto;
 }
+
+.navbar__links:hover {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.btn-group-vertical {
+    justify-content: center;
+}
+
+.btn {
+    background: peachpuff;
+    color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background: pink;
+    color: white;
+}
+
+
+
+
