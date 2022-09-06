@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    height: 50px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,13 +16,18 @@
     text-decoration: none;
     color: black;
     margin: auto;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 
 .navbar__links:hover {
     text-decoration: none;
-    color: white;
+    color: palevioletred;
     margin: auto;
 }
+
+
 
 .btn-group-vertical {
     justify-content: center;
@@ -33,12 +38,79 @@
     color: black;
     border: none;
     border-radius: 0;
+
 }
 
 .btn:hover {
     background: pink;
     color: white;
 }
+
+.slick-arrow {
+    background: palevioletred;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.slick-arrow:hover {
+    background: palevioletred;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.next {
+    height: 50px;
+    width: 50px;
+    color: palevioletred;
+    display: block;
+}
+
+
+
+.slide-single {
+    width: 700px;
+    height: 466px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px){
+    .navbar {
+        height: 150px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .navbar {
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 250px){
+    .navbar {
+        height: 300px;
+    }
+}
+
+
 
 
 
