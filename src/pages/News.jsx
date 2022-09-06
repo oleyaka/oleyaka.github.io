@@ -2,9 +2,9 @@ import React from 'react';
 
 const News = () => {
     return (
-        <h1>
+        <p>
             Здесь будут новости
-        </h1>
+        </p>
     );
 };
 

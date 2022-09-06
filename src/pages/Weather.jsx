@@ -1,10 +1,14 @@
 import React from 'react';
+import Form from "../components/Form";
+import Forecast from "../components/Forecast";
 
 const Weather = () => {
     return (
-        <h1>
-            Здесь будет погода
-        </h1>
+        <div>
+
+            <Form/>
+            <Forecast/>
+        </div>
     );
 };
 
